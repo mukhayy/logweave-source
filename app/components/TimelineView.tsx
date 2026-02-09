@@ -85,7 +85,7 @@ export default function TimelineView({
   // Get global time range (across all services)
   const allTimes = timeline
     .map((e: any) => parseTime(e.timestamp))
-    .filter((t) => t > 0);
+    .filter((t: number) => t > 0);
   const globalMinTime = Math.min(...allTimes);
   const globalMaxTime = Math.max(...allTimes);
   const globalDuration = globalMaxTime - globalMinTime;
