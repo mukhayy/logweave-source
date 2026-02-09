@@ -14,6 +14,7 @@ LogWeave uses Gemini 3 to:
 
 ## Gemini 3 Features Used
 - **Advanced reasoning**: Multi-step causality analysis
+- **Long Context**: Enough to reason and connect the dots of complex distributed logs
 - **Structured output**: JSON timeline with anomaly detection
 - **Context awareness**: Uses expected behavior to identify deviations
 - **Pattern detection**: Identifies timing impossibilities and misleading evidence
