@@ -22,9 +22,6 @@ LogWeave uses Gemini 3 to:
 🎥 [3-minute video](link)
 🌐 [Live demo](vercel-link)
 
-## Architecture
-[Include diagram showing: User → Next.js → Log Parser → Gemini API → UI]
-
 ## Quick Start
 ```bash
 npm install
